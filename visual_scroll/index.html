@@ -8,14 +8,15 @@
 	<h2 class="subdescription">Program uses webcamera and hand gesture to scroll a window</h2>
 	<h3 class="goal">Goal: To allow a user to use a hand gesture in order to cause the screen to move on the given window so you can look at recipes without touching your keyboard</h3>
 	<h3 class="gac">Gratitudes and credits</h3>
-	<p>I started this project based off of the work of ZIXUAN WANG found at http://dmprojects.lmc.gatech.edu/~zwang620/ . In it, he builds a gesture control system in order for a user to explore recipes without touching the keyboard. He, however, uses a leap sensor which I did not have.  I instead wanted to use only my camera</p>
-	<p>This project also owes a debt of gratitude to Murtaza Hassan at https://www.murtazahassan.com/ and his 3 hour OpenCV tutorial https://www.murtazahassan.com/learn-opencv-3hours/ for teaching the basics of opencv in python.</p>
-	<p>Also, the haar file for palm and fist image recognition was taken from: https://github.com/OAID/CVGesture</p>
-	<p>Also, the pyautogui library was used to control the scrolling in windows. (thanks to Al Sweigart at https://automatetheboringstuff.com/)</p>
+	<p>I started this project based off of the work of Zixuan Wand found at <a href="http://dmprojects.lmc.gatech.edu/~zwang620/">http://dmprojects.lmc.gatech.edu/~zwang620/</a> . In it, he builds a gesture control system in order for a user to explore recipes without touching the keyboard. He, however, uses a leap sensor which I did not have.  I instead wanted to use only my camera</p>
+	<p>This project also owes a debt of gratitude to Murtaza Hassan at <a href="https://www.murtazahassan.com/">https://www.murtazahassan.com/</a> and his 3 hour OpenCV tutorial https://www.murtazahassan.com/learn-opencv-3hours/ for teaching the basics of opencv in python.</p>
+	<p>Also, the haar file for palm and fist image recognition was taken from: <a href="https://github.com/OAID/CVGesture">https://github.com/OAID/CVGesture</a></p>
+	<p>Also, the pyautogui library was used to control the scrolling in windows. (thanks to Al Sweigart at <a href="https://automatetheboringstuff.com/">https://automatetheboringstuff.com/</a>)</p>
 
 	<h3 class="pinaction">Project In Action</h3>
 	<p>Here is the project in action (see video and the brief description of current features)</p>
-	<a href=visual_scroll_demo_2020_07_27.mp4>Video here</a>
+	<img src="HandControlGifV3.gif">
+	<a href=visual_scroll_demo_2020_07_27.mp4>Full video here</a>
 
 	<h3 class="reflections">Reflections</h3>
 	<p>I started this project by learning a lot about opencv from the Murtaza tutorial.  After about a week, I had accomplisehd and learned most of what I wanted in order to finish the tutorial and apply it to my project.  This included:
@@ -23,6 +24,7 @@
 		<li> using a haar file to get the array of contours,</li>
 		<li> putting boxes around those contours, and</li> 
 		<li> using the values returned by the contours to effect something</li>
+		<li> using timing and "bins" (a variable to store how long an input has been given) to effect the scroll</li>
 	</p>
 </body>
 </html>
