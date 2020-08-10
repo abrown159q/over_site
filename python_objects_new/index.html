@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project: Python Object Creator Template </title>
+</head>
+<body>
+	<h1>Python Object Creator Template</h1>
+	<h2 class="subdescription">Python code to generate code to handle objects of classes.</h2>
+	<h3 class="goal">Goal: To write python code to generate code to quickly make a class, a CSV file with the same instance variables, a file to import the objects, and a tester file. The goal is to quickly be able to generate classes with arbitrary variable types and names and a CSV file to quickly import data to then be able to work with it.</h3>
+	<h3 class="gac">Gratitudes and credits</h3>
+	<p>I started this project after extensive use of Automate The Boring Stuff wiht Python by Al Sweigart at <a href="https://automatetheboringstuff.com">https://automatetheboringstuff.com</a>.</p>
+
+	<h3 class="pinaction">Project In Action</h3>
+	<p>Here is the project in action (see video and the brief description of current features)</p>
+	<p><img src="template.png">
+	<p><img src="class.png">
+	<p><img src="objectListGetter.png">
+	<p><img src="csv.png">
+	<p><img src="objectListGetterTester.png">
+	<a href=videoHere.mp4>(Video to be added)</a>
+	<p>The idea behind this project was to be able to quickly generate a pattern that I use often in many of the Python coding projects I have worked on.  I noticed I was spending a lot of time re-writing the same structure and statements for a necessary class and the CSV file and the mechanism to import the data from the CSV.  There are a number of applications where I want to be able to plop some data into a CSV and then use to create objects I will then work with in Python.  This project helps to solve that problem. The structure allows for later modifications (for example, if importing the data needs preprocessing it can be done at the class level). There is a default import of booleans saved by open office files (generally stored as "TRUE" and "FALSE" which are then converted to Python's True and False). It also gives a structure that is easily understood by beginning computer science students.</p>
+
+	<h3 class="reflections">Reflections</h3>
+	<p>There were a couple of hurdles to overcome in this process
+	<ol> 
+		<li>Working with the general style of writing a python file including tabs through escape characters </li>
+		<li>Generating the code to write to a file (solved with ATBS) </li> 
+		<li>Making sure the variable types were imported correctly </li>
+		<li>Changing the text TRUE or FALSE to import as True or False </li>
+	</p>
+</body>
+</html>
